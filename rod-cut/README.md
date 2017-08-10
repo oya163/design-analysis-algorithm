@@ -8,8 +8,8 @@
 
 	  -h, --help            show this help message and exit
 
-	  --arch ARCH, -a ARCH  cut-rod-ineffi | cut-rod-top-down | cut-rod-bottom-up__
-| bottom-up-solution (default: cut-rod-ineffi
+	  --arch ARCH, -a ARCH  cut-rod-ineffi | cut-rod-top-down | cut-rod-bottom-up </br>
+	  | bottom-up-solution (default: cut-rod-ineffi
 
 	  -n N                  number of pieces of rod (default: 5)
 
