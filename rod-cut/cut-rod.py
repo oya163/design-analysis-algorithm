@@ -17,8 +17,8 @@ p = [1, 5, 8, 9, 10, 17, 17, 20, 24, 30]
 parser = argparse.ArgumentParser(description = "Rod cutting problem")
 
 parser.add_argument('--arch','-a', metavar='ARCH', 
-                    default='cut-rod', help='cut-rod | cut-rod-top-down | cut-rod-bottom-up | bottom-up-solution')
-
+                    default='cut-rod', help='cut-rod-ineffi | cut-rod-top-down | cut-rod-bottom-up | bottom-up-solution (default: cut-rod-ineffi')
+ 
 parser.add_argument('-n', default = 5, type=int, metavar = 'N', help = 'number of pieces of rod (default: 5)')
 
 ########################################
@@ -106,7 +106,7 @@ def print_cut_rod_solution(p, n):
 def main():
     args = parser.parse_args()
 
-    if args.arch == 'cut-rod':
+    if args.arch == 'cut-rod-ineffi':
         print ('Using default')
         print('Result from inefficient algorithm : %d' % cut_rod(p,args.n))
     elif args.arch == 'cut-rod-top-down':
