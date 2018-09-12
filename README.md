@@ -1,5 +1,8 @@
 # Design and Analysis of Algorithm
 
-I created this repo to upload all the
-programs/algorithm that I have learned in 
-Design and Analysis of Algorithm in UMBC
+I am taking this course under David Chapman for Fall 2018 in UMBC.
+
+Algorithms learned as of now:
+
+* Dynamic Programming
+* Greedy Algorithm
