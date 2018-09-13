@@ -3,7 +3,7 @@
     HW1 - Cookie Thief Problem
     Due Date - 09/13/2018
 
-    Greedy Algorithm
+    Dynamic Programming
 
     This algorithm maximizes the number of cookies
     stolen from a given jar.
